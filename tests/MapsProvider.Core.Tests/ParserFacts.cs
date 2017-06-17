@@ -12,7 +12,7 @@ namespace MapsProvider.Core.Tests
         [Fact]
         public void Can_parse_single_param()
         {
-            var parser = new Parser();
+            var parser = new BingMapsUriParser();
 
             // Act
             var results = parser.Parse("bingmaps:?cp=40.726966~-74.006076");
@@ -24,7 +24,7 @@ namespace MapsProvider.Core.Tests
         [Fact]
         public void Can_parse_multiple_params()
         {
-            var parser = new Parser();
+            var parser = new BingMapsUriParser();
 
             // Act
             var results = parser.Parse("bingmaps:?cp=40.726966~-74.006076&bb=39.719_-74.52~41.71_-73.5");

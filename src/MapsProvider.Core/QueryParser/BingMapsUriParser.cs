@@ -6,7 +6,7 @@ using MapsProvider.Core.QueryParser.Parsers;
 
 namespace MapsProvider.Core.QueryParser
 {
-    public class Parser
+    public class BingMapsUriParser
     {
         private static readonly Regex Regex = new Regex(@"bingmaps:\?(?<parm>[^&]+)(&(?<parm>[^&]+))*", RegexOptions.Compiled);
 

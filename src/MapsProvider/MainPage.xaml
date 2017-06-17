@@ -8,6 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="40" TextWrapping="Wrap" Grid.Row="0">
+            I redirect requests from bingmaps:// to Google Maps.
+        </TextBlock>
+        <StackPanel  Grid.Row="1"  Margin="20">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40">
+                <Hyperlink NavigateUri="bingmaps:?q=2400%20Aviation%20Dr%20N%2C%20DFW%20Airport%2C%20TX%2075261">2400 Aviation Dr N, DFW Airport, TX 75261</Hyperlink>
+            </TextBlock>
+        </StackPanel>
 
     </Grid>
 </Page>
