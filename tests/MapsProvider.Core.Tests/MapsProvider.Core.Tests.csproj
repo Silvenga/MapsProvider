@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\ParserHost.cs" />
+    <Compile Include="ParserFacts.cs" />
     <Compile Include="Parsers\BoundingBoxFacts.cs" />
     <Compile Include="Parsers\CenterPointFacts.cs" />
     <Compile Include="Parsers\LocationFacts.cs" />
