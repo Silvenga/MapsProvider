@@ -131,6 +131,12 @@
       <Version>5.2.3</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MapsProvider.Core\MapsProvider.Core.csproj">
+      <Project>{f6914e0b-2f90-4d60-a55b-50ea7a915a47}</Project>
+      <Name>MapsProvider.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
