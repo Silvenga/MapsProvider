@@ -69,6 +69,8 @@
     <Compile Include="Parsers\BoundingBoxFacts.cs" />
     <Compile Include="Parsers\CenterPointFacts.cs" />
     <Compile Include="Parsers\LocationFacts.cs" />
+    <Compile Include="Parsers\QueryTermFacts.cs" />
+    <Compile Include="Parsers\ZoomLevelFacts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
